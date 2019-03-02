@@ -2,7 +2,7 @@ import Nav from './Nav';
 import Link from 'next/link';
 import styled from 'styled-components';
 import Router from 'next/router';
-import NProgress from 'nprogress';
+import NProgress from 'nprogress'; // this gives us the red line across the top of the page when routing to a new page
 
 Router.onRouteChangeStart = () => {
   NProgress.start();
